@@ -1,0 +1,13 @@
+
+button.addEventListener("click", () => {
+   fruits.forEach((fruit) => {
+const fruitElement = document.createElement("div")
+fruitElement.innerText = fruit
+fruitsContainer.append(fruitElement)
+  })
+   // using a for each loop, iterate through each fruit in the fruits array
+   // inside of the loop:
+   // create a new div
+   // set the innertext to the fruit string value
+   // append the div to the fruitsContainer
+})
