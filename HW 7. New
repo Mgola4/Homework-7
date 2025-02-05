@@ -1,0 +1,103 @@
+const videoGames = [
++
+{ title: "risk of rain 2", numberOfPlayers: 4, genre: "roguelite" },
++
+{ title: "cyberpunk 2077", numberOfPlayers: 1, genre: "rpg" },
++
+{ title: "animal crossing: new horizons", numberOfPlayers: 1, genre: "lifesim" }
++
+]
++
+// using map create a array containing just the genres of the video games
++
+// const genres = videoGames.map((Game) => {
++
+// console.log(Game.genre);
++
+// console.log(Game.title);
++
+// })
++
+// console.log(genres);
++
+// const genres = videoGames.map(game => game.genre);
++
+// console.log(genres);
++
+// const multiPlayerGames = videoGames.filter((videoGame) => videoGame.numberOfPlayers > 1)
++
+// console.log("multiplayer games",multiPlayerGames);
++
+// filter the videoGames list to select only videogames with genre of "rpg" for rpg
++
+// const rpgs = videoGames.filter((videoGame) => videoGame.numberOfPlayers === 1);
++
+// console.log(rpgs)
++
+const fruits = ["apple", "banana", "mango", "banana", "strawberry"];
++
+const mangoMessages = [];
++
+// fruits.forEach((fruit) => {
++
+// if(fruit === "banana") {
++
+// bananaMessages.push("chicken with peanut")
++
+// console.log(bananaMessages);
++
+// }
++
+// })
++
+// using a forEach loop, iterate through the fruits array, and do the following:
++
+// * if fruit === "apple", console.log the message "I hate apples"
++
+// fruits.forEach((fruit) => {
++
+// if(fruit === "apple") {
++
+// appleMessages.push("I hate apples")
++
+// console.log(appleMessages);
++
+// }
++
+// })
++
+// * if fruit === "mango", console.log the message "I love mangoes"
++
+// fruits.forEach((fruit) => {
++
+// // if(fruit === "mango") {
++
+// // mangoMessages.push("I love mangoes")
++
+// // console.log(mangoMessages);
++
+// // }
++
+// })
++
+// * else, console.log the message "this fruit is ok i guess"
++
+fruits.forEach((fruit) => {
++
+if(fruit === "mango") {
++
+mangoMessages.push("I love mangoes")
++
+console.log(mangoMessages);
++
+}
++
+else {
++
+console.log("this fruit is ok i guess")
++
+}
++
+})
++
+// *
